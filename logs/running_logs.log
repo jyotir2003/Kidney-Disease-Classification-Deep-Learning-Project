@@ -320,3 +320,263 @@ Traceback (most recent call last):
   File "e:\Projects\Kidney_Disease_Classification\main.py", line 45, in <module>
     model_evalution = EvaluationPipeline()
 NameError: name 'EvaluationPipeline' is not defined
+[2024-05-15 07:25:41,810: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-15 07:25:41,812: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 07:25:41,850: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 07:25:41,866: INFO: common: created directory at: artifacts]
+[2024-05-15 07:25:41,866: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-15 07:25:41,867: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 07:26:09,153: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 07:26:10,278: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-15 07:26:10,279: INFO: main: *******************]
+[2024-05-15 07:26:10,280: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-15 07:26:10,284: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 07:26:10,287: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 07:26:10,288: INFO: common: created directory at: artifacts]
+[2024-05-15 07:26:10,289: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-15 07:26:17,090: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-15 07:26:22,905: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-15 07:26:22,906: INFO: main: *******************]
+[2024-05-15 07:26:22,906: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-15 07:26:22,910: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 07:26:22,913: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 07:26:22,914: INFO: common: created directory at: artifacts]
+[2024-05-15 07:26:22,932: INFO: common: created directory at: artifacts\training]
+[2024-05-15 07:28:07,675: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-15 07:36:00,260: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 07:36:00,297: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 07:36:00,333: INFO: common: created directory at: artifacts]
+[2024-05-15 07:36:28,527: INFO: common: json file saved at: scores.json]
+[2024-05-15 07:36:34,377: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-05-15 07:36:35,862: INFO: builder_impl: Assets written to: C:\Users\acer\AppData\Local\Temp\tmp75cvresj\model\data\model\assets]
+[2024-05-15 07:47:33,736: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 07:47:33,775: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 07:47:33,791: INFO: common: created directory at: artifacts]
+[2024-05-15 07:48:01,513: INFO: common: json file saved at: scores.json]
+[2024-05-15 07:48:06,800: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-05-15 07:48:08,095: INFO: builder_impl: Assets written to: C:\Users\acer\AppData\Local\Temp\tmpq96_ri35\model\data\model\assets]
+[2024-05-15 07:51:11,152: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-15 07:51:11,155: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 07:51:11,157: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 07:51:11,158: INFO: common: created directory at: artifacts]
+[2024-05-15 07:51:11,158: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-15 07:51:11,159: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 07:51:38,350: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 07:51:39,429: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-15 07:51:39,430: INFO: main: *******************]
+[2024-05-15 07:51:39,430: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-15 07:51:39,432: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 07:51:39,434: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 07:51:39,435: INFO: common: created directory at: artifacts]
+[2024-05-15 07:51:39,435: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-15 07:51:40,233: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-15 07:51:43,182: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-15 07:51:43,183: INFO: main: *******************]
+[2024-05-15 07:51:43,183: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-15 07:51:43,187: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 07:51:43,190: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 07:51:43,190: INFO: common: created directory at: artifacts]
+[2024-05-15 07:51:43,190: INFO: common: created directory at: artifacts\training]
+[2024-05-15 07:53:06,752: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-15 07:53:06,802: INFO: main: *******************]
+[2024-05-15 07:53:06,839: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-15 07:53:06,840: ERROR: main: name 'EvaluationPipeline' is not defined]
+Traceback (most recent call last):
+  File "e:\Projects\Kidney_Disease_Classification\main.py", line 45, in <module>
+    model_evalution = EvaluationPipeline()
+NameError: name 'EvaluationPipeline' is not defined
+[2024-05-15 08:08:53,469: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-15 08:08:53,473: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 08:08:53,504: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 08:08:53,548: INFO: common: created directory at: artifacts]
+[2024-05-15 08:08:53,569: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-15 08:08:53,570: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 08:09:20,499: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 08:09:21,548: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-15 08:09:21,550: INFO: main: *******************]
+[2024-05-15 08:09:21,550: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-15 08:09:21,553: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 08:09:21,555: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 08:09:21,556: INFO: common: created directory at: artifacts]
+[2024-05-15 08:09:21,556: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-15 08:09:24,616: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-15 08:09:26,699: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-15 08:09:26,699: INFO: main: *******************]
+[2024-05-15 08:09:26,699: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-15 08:09:26,701: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 08:09:26,703: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 08:09:26,703: INFO: common: created directory at: artifacts]
+[2024-05-15 08:09:26,711: INFO: common: created directory at: artifacts\training]
+[2024-05-15 08:10:46,000: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-15 08:10:46,015: INFO: main: *******************]
+[2024-05-15 08:10:46,015: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-15 08:10:46,019: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 08:10:46,254: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 08:10:46,297: INFO: common: created directory at: artifacts]
+[2024-05-15 08:11:08,659: INFO: common: json file saved at: scores.json]
+[2024-05-15 08:11:08,660: INFO: common: json file saved at: scores.json]
+[2024-05-15 08:11:08,661: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-15 08:15:35,966: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-15 08:15:35,968: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 08:15:35,969: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 08:15:35,970: INFO: common: created directory at: artifacts]
+[2024-05-15 08:15:35,989: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-15 08:15:35,990: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 08:16:02,475: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 08:16:03,287: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-15 08:16:03,288: INFO: main: *******************]
+[2024-05-15 08:16:03,288: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-15 08:16:03,291: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 08:16:03,293: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 08:16:03,293: INFO: common: created directory at: artifacts]
+[2024-05-15 08:16:03,294: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-15 08:16:06,143: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-15 08:16:07,244: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-15 08:16:07,244: INFO: main: *******************]
+[2024-05-15 08:16:07,245: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-15 08:16:07,247: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 08:16:07,251: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 08:16:07,251: INFO: common: created directory at: artifacts]
+[2024-05-15 08:16:07,252: INFO: common: created directory at: artifacts\training]
+[2024-05-15 08:17:20,796: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-15 08:17:20,796: INFO: main: *******************]
+[2024-05-15 08:17:20,797: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-15 08:17:20,800: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 08:17:20,801: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 08:17:20,802: INFO: common: created directory at: artifacts]
+[2024-05-15 08:17:44,216: INFO: common: json file saved at: scores.json]
+[2024-05-15 08:17:44,217: INFO: common: json file saved at: scores.json]
+[2024-05-15 08:17:44,217: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-15 09:02:11,424: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-15 09:02:11,447: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 09:02:11,472: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 09:02:11,524: INFO: common: created directory at: artifacts]
+[2024-05-15 09:02:11,530: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-15 09:02:11,542: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 09:02:32,717: ERROR: main: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C8216059D0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))]
+Traceback (most recent call last):
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection
+    raise err
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\util\connection.py", line 73, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 491, in _make_request
+    raise new_e
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 467, in _make_request
+    self._validate_conn(conn)
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 1099, in _validate_conn
+    conn.connect()
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\connection.py", line 616, in connect
+    self.sock = sock = self._new_conn()
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\connection.py", line 213, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001C8216059D0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\anaconda\envs\kidney\lib\site-packages\requests\adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+  File "E:\anaconda\envs\kidney\lib\site-packages\urllib3\util\retry.py", line 515, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C8216059D0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "e:\Projects\Kidney_Disease_Classification\main.py", line 12, in <module>
+    data_ingestion.main()
+  File "e:\Projects\Kidney_Disease_Classification\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 16, in main
+    data_ingestion.download_file()
+  File "e:\projects\kidney_disease_classification\src\cnnClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "e:\projects\kidney_disease_classification\src\cnnClassifier\components\data_ingestion.py", line 28, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "E:\anaconda\envs\kidney\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "E:\anaconda\envs\kidney\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "E:\anaconda\envs\kidney\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "E:\anaconda\envs\kidney\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "E:\anaconda\envs\kidney\lib\site-packages\requests\adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /uc?/export=download&id=1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001C8216059D0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond'))
+[2024-05-15 09:03:46,196: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-15 09:03:46,220: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 09:03:46,242: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 09:03:46,265: INFO: common: created directory at: artifacts]
+[2024-05-15 09:03:46,266: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-15 09:03:46,267: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 09:04:12,855: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 09:04:14,162: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-15 09:04:14,163: INFO: main: *******************]
+[2024-05-15 09:04:14,163: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-15 09:04:14,166: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 09:04:14,168: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 09:04:14,168: INFO: common: created directory at: artifacts]
+[2024-05-15 09:04:14,169: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-15 09:04:16,848: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-15 09:04:17,746: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-15 09:04:17,746: INFO: main: *******************]
+[2024-05-15 09:04:17,746: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-15 09:04:17,749: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 09:04:17,754: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 09:04:17,756: INFO: common: created directory at: artifacts]
+[2024-05-15 09:04:17,757: INFO: common: created directory at: artifacts\training]
+[2024-05-15 09:07:21,713: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-15 09:07:21,714: INFO: main: *******************]
+[2024-05-15 09:07:21,714: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-15 09:07:21,716: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 09:07:21,717: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 09:07:21,718: INFO: common: created directory at: artifacts]
+[2024-05-15 09:07:49,036: INFO: common: json file saved at: scores.json]
+[2024-05-15 09:07:49,037: INFO: common: json file saved at: scores.json]
+[2024-05-15 09:07:49,038: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
