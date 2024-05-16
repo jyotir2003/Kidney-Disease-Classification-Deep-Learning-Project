@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/Projects/Kidney_Disease_Classification/mlruns/0/c578ca59cad9448e91cc9a151c19a340/artifacts
+end_time: 1715755584476
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c578ca59cad9448e91cc9a151c19a340
+run_name: capricious-fawn-173
+run_uuid: c578ca59cad9448e91cc9a151c19a340
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715755531476
+status: 3
+tags: []
+user_id: acer

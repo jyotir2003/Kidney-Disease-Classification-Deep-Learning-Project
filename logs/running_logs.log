@@ -580,3 +580,209 @@ x==========x]
 [2024-05-15 09:07:49,038: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-05-15 10:44:12,651: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-15 10:44:12,690: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 10:44:12,717: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 10:44:12,739: INFO: common: created directory at: artifacts]
+[2024-05-15 10:44:12,742: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-15 10:44:12,744: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 10:44:39,696: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 10:44:41,977: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-15 10:44:41,980: INFO: main: *******************]
+[2024-05-15 10:44:41,981: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-15 10:44:41,989: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 10:44:42,013: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 10:44:42,016: INFO: common: created directory at: artifacts]
+[2024-05-15 10:44:42,018: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-15 10:44:45,512: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-15 10:44:47,396: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-15 10:44:47,400: INFO: main: *******************]
+[2024-05-15 10:44:47,402: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-15 10:44:47,408: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 10:44:47,417: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 10:44:47,421: INFO: common: created directory at: artifacts]
+[2024-05-15 10:44:47,487: INFO: common: created directory at: artifacts\training]
+[2024-05-15 10:48:26,381: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-15 10:48:26,389: INFO: main: *******************]
+[2024-05-15 10:48:26,390: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-15 10:48:26,431: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 10:48:26,458: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 10:48:26,481: INFO: common: created directory at: artifacts]
+[2024-05-15 10:49:00,419: INFO: common: json file saved at: scores.json]
+[2024-05-15 10:49:00,421: INFO: common: json file saved at: scores.json]
+[2024-05-15 10:49:00,422: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-15 12:10:38,527: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-15 12:10:38,559: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 12:10:38,604: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 12:10:38,632: INFO: common: created directory at: artifacts]
+[2024-05-15 12:10:38,633: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-15 12:10:38,634: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 12:11:05,578: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1YhKFP8rX6afx5gPFRux2kSXv9KEs6un7/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-05-15 12:11:08,064: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-15 12:11:08,065: INFO: main: *******************]
+[2024-05-15 12:11:08,065: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-05-15 12:11:08,070: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 12:11:08,081: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 12:11:08,083: INFO: common: created directory at: artifacts]
+[2024-05-15 12:11:08,097: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-05-15 12:11:11,154: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-05-15 12:11:14,000: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-05-15 12:11:14,002: INFO: main: *******************]
+[2024-05-15 12:11:14,002: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-05-15 12:11:14,005: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 12:11:14,007: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 12:11:14,008: INFO: common: created directory at: artifacts]
+[2024-05-15 12:11:14,009: INFO: common: created directory at: artifacts\training]
+[2024-05-15 12:14:52,466: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-05-15 12:14:52,496: INFO: main: *******************]
+[2024-05-15 12:14:52,496: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-05-15 12:14:52,508: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-15 12:14:52,539: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-15 12:14:52,565: INFO: common: created directory at: artifacts]
+[2024-05-15 12:15:25,988: INFO: common: json file saved at: scores.json]
+[2024-05-15 12:15:25,992: INFO: common: json file saved at: scores.json]
+[2024-05-15 12:15:35,084: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-05-15 12:15:36,408: INFO: builder_impl: Assets written to: C:\Users\acer\AppData\Local\Temp\tmp38q038fo\model\data\model\assets]
+[2024-05-15 12:16:24,479: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-05-15 12:26:05,545: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.234.98:8080]
+[2024-05-15 12:26:05,545: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-15 12:26:44,538: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:26:44] "GET / HTTP/1.1" 200 -]
+[2024-05-15 12:26:46,456: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:26:46] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -]
+[2024-05-15 12:26:55,485: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "e:\Projects\Kidney_Disease_Classification\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "e:\projects\kidney_disease_classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-05-15 12:26:55,642: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:26:55] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-15 12:27:35,733: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:27:35] "GET / HTTP/1.1" 200 -]
+[2024-05-15 12:27:37,930: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:27:37] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -]
+[2024-05-15 12:30:11,001: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "e:\Projects\Kidney_Disease_Classification\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "e:\projects\kidney_disease_classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-05-15 12:30:11,009: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:30:11] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-15 12:32:33,587: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.234.98:8080]
+[2024-05-15 12:32:33,589: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-05-15 12:33:14,830: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:33:14] "GET / HTTP/1.1" 200 -]
+[2024-05-15 12:33:16,464: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:33:16] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -]
+[2024-05-15 12:33:39,104: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:33:39] "GET / HTTP/1.1" 200 -]
+[2024-05-15 12:33:39,802: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:33:39] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -]
+[2024-05-15 12:33:48,650: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "e:\Projects\Kidney_Disease_Classification\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "e:\projects\kidney_disease_classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-05-15 12:33:48,655: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:33:48] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-15 12:55:33,251: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:55:33] "GET / HTTP/1.1" 200 -]
+[2024-05-15 12:55:34,814: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:55:34] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -]
+[2024-05-15 12:55:38,466: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask_cors\extension.py", line 178, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "E:\anaconda\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "e:\Projects\Kidney_Disease_Classification\app.py", line 44, in predictRoute
+    result = clApp.classifier.predict()
+  File "e:\projects\kidney_disease_classification\src\cnnClassifier\pipeline\prediction.py", line 16, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "E:\anaconda\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-05-15 12:55:38,495: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:55:38] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-05-15 12:55:42,836: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:55:42] "GET / HTTP/1.1" 200 -]
+[2024-05-15 12:55:43,837: INFO: _internal: 127.0.0.1 - - [15/May/2024 12:55:43] "[33mGET /highLightTitle.png HTTP/1.1[0m" 404 -]
